@@ -11,3 +11,11 @@ function countDigits(n){
 }
 
 console.log(countDigits(1234));
+
+
+//Reverse a number
+
+
+
+
+
