@@ -1,0 +1,7 @@
+Time complexity
+
+What is it?
+
+time complexity !== time taken 
+
+
