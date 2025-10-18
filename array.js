@@ -61,7 +61,7 @@
 //     leaders.push(maxRight);
 
 //     for(let i = arr.length - 2; i >= 0; i --){
-//         if(arr[i] > maxRight){
+//         if(arr[i] >= maxRight){
 //             leaders.push(arr[i])
 //             maxRight = arr[i];
 //         }
