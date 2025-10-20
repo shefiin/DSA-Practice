@@ -1,0 +1,20 @@
+Set
+--------
+
+1. collection of value - unique values
+2. can contain diff data types(even object)
+3. dynamically sized
+4. dont maintain insertion order(first added may not be first element)
+5. sets are iterables (for of)
+
+
+
+sets vs array
+--------------
+
+# set is unique elems array may contain duplicates
+# no insertion order in set but in array insertion order is there
+# searching and deleting of elements in set is much faster than array
+
+
+ 

@@ -79,7 +79,7 @@
 // console.log(isPowerOfTwo(5));
 
 
-//Big-O = O(logn)
+// Big-O = O(logn)
 
 
 
@@ -94,4 +94,21 @@
 // console.log(isPowerOfTwoBitwise(5));
 
 
-//Big-O = O(1)
+// Big-O = O(1)
+
+
+// function recursiveFibonacci(n) {
+//     if(n < 2) return n
+//     return recursiveFibonacci(n - 1) + recursiveFibonacci(n - 2)
+// }
+
+// console.log(recursiveFibonacci(0));
+// console.log(recursiveFibonacci(1));
+// console.log(recursiveFibonacci(6));
+
+
+
+
+//Sets
+
+

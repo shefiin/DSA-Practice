@@ -1,0 +1,14 @@
+map
+----
+
+1. unordered collection of key value pairs both keys and values can be of any data type.
+2. to retrieve a value, we can use the corresponging key
+3. maps are iterables.(for of loop).
+
+
+map vs object
+--------------
+
+# objects are unordered whereas maps are ordered
+# keys in objects can only be string or symbol type, in map they can be of any type
+# 
