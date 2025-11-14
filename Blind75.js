@@ -48,3 +48,20 @@ var containsDuplicate = function(nums){
     }
     return false;
 }
+
+
+
+//Leetcode-53 maximum subarray
+
+//Brute force method 
+
+
+function maxSubarray(arr){
+    let newArr = [];
+
+    for (let i = 0; i < arr.length; i++){
+        for(let j = i + 1; i < arr.length; j++){
+            
+        }
+    }
+}
