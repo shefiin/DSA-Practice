@@ -80,18 +80,34 @@
 //Optimal way using map
 
 
-function twoSum(nums, target){
-    let map = new Map();
+// function twoSum(nums, target){
+//     let map = new Map();
     
-    for(let i = 0; i < nums.length; i++){
-        let num = target - nums[i]
-        if(map.has(num)){
-            return [i, map.get(num)]
-        } else {
-            map.set(nums[i], i)
+//     for(let i = 0; i < nums.length; i++){
+//         let num = target - nums[i]
+//         if(map.has(num)){
+//             return [i, map.get(num)]
+//         } else {
+//             map.set(nums[i], i)
+//         }
+//     }
+
+// }
+
+// console.log(twoSum([2,7,11,15], 9));
+
+
+//14. longest common prefix
+
+function longestCommonPrefix(strs) {
+    let prefix = strs[0];
+    for(let i = 1; i < strs.length; i++){
+        while(strs[i].indexOf(prefix) !== 0){
+            prefix = prefix.substring(0, prefix.length - 1)
         }
     }
+    return prefix
+};
 
-}
-
-console.log(twoSum([2,7,11,15], 9));
+console.log(longestCommonPrefix(["flower","flow","flight"]));
+console.log(longestCommonPrefix(["dog","racecar","car"]));
