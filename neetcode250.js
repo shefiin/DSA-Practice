@@ -54,6 +54,9 @@
 
 
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 
 //1. Two sum
 
@@ -97,6 +100,9 @@
 // console.log(twoSum([2,7,11,15], 9));
 
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 //14. longest common prefix
 
 // function longestCommonPrefix(strs) {
@@ -111,6 +117,10 @@
 
 // console.log(longestCommonPrefix(["flower","flow","flight"]));
 // console.log(longestCommonPrefix(["dog","racecar","car"]));
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -155,6 +165,11 @@
 // console.log(mergeStrings("hello", "shefin"));
 
 
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
 //leetcode 88 merge two sorted array
 
 
@@ -174,4 +189,45 @@
 //         k--;
 //     }
 // };
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+//leetcode 26 Remove Duplicates from Sorted Array
+
+
+//Brute force approach- time - O(N^2) space- O(1)
+
+
+// var removeDuplicates = function(nums) {
+//     for(let i = 0; i < nums.length; i++){
+//         for(let j = i + 1; j < nums.length; j++){
+//             if(nums[i] !== nums[j]){
+//                 continue;
+//             } else {
+//                 nums.splice(j, 1)
+//                 j--;
+//             }
+//         }
+//     }
+//     return nums.length
+// };
+
+// console.log(removeDuplicates([1,1,2]));
+
+
+
+// var removeDuplicates = function(nums) {
+//     let map = {};
+//     for(let num of nums){
+//         map[num] = (map[num] || 0) + 1
+//     }
+//     return Object.keys(map).length
+// };
+
+// console.log(removeDuplicates([1,1,2]));
+
 
